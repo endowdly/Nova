@@ -5,20 +5,20 @@
 #Requires -Version 5.0
 
 <#PSScriptInfo 
-.Version 3.1.1 
-.Guid 2c5925d3-ba47-4664-8da7-acff9474b141 
-.Author endowdly 
-.Companyname 
-.Copyright 2020
-.Tags Build 
-.Licenseuri https://github.com/endowdly/nova/license
-.Projecturi https://github.com/endowdly/nova 
-.Iconuri 
-.Externalmoduledependencies 
-.Requiredscripts nova.ps1
-.Externalscriptdependencies 
-.Releasenotes 
-#>
+.VERSION 3.1.1 
+.GUID 9d8d14e6-d240-4af5-8649-f4ceae08cabe 
+.AUTHOR endowdly 
+.COMPANYNAME 
+.COPYRIGHT 2020 
+.TAGS Build 
+.LICENSEURI https://github.com/endowdly/nova/license 
+.PROJECTURI https://github.com/endowdly/nova 
+.ICONURI 
+.EXTERNALMODULEDEPENDENCIES 
+.REQUIREDSCRIPTS nova.ps1 
+.EXTERNALSCRIPTDEPENDENCIES 
+.RELEASENOTES 
+#> 
 
 <#
 .Synopsis

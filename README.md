@@ -29,6 +29,7 @@ First, you need a Task file.
 5. Invoke the Nova script by calling it (it cannot be sourced)
 
 All tasks are dynamically loaded by Nova, so you get tab-completion for free.
+If no task is given as an argument, Nova will try to execute a task named **Default**.
 
 ### Example 1
 

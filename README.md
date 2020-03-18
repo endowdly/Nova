@@ -30,6 +30,7 @@ First, you need a Task file.
 6. Finally you can stuff all your task functions into one file.
 
 All tasks are dynamically loaded by Nova, so you get tab-completion for free.
+If no task is given as an argument, Nova will try to execute a task named **Default**.
 
 ! If no task is given to Nova, it will try to run a task named `Default`.
 ! You should have one named that.

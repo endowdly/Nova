@@ -27,8 +27,14 @@ First, you need a Task file.
 3. In this build system, an attribute named 'DependsOn' is available. You can make your task depend on another by using it.
 4. You can also depend on more than one task, though the syntax is a little funky.
 5. Invoke the Nova script by calling it (it cannot be sourced)
+6. Finally you can stuff all your task functions into one file.
 
 All tasks are dynamically loaded by Nova, so you get tab-completion for free.
+
+! If no task is given to Nova, it will try to run a task named `Default`.
+! You should have one named that.
+
+\* Use `Invoke-Task` in your task function to call nest another task function and all its dependent tasks.
 
 ### Example 1
 
@@ -122,6 +128,8 @@ There is now a small TUI built in.
 Use nova.bat to easily access the nova.launcher.ps1 file, which is the TUI.
 This script will poll the config file to create a nice little prompt that asks you for a task!
 Read its help and investivate the config file to see how it's used.
+
+![tui example](./assets/tui.png)
 
 ### Examples
 
